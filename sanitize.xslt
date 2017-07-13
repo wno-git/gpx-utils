@@ -9,7 +9,7 @@
     exclude-result-prefixes="gpx">
     <xsl:output indent="yes"/>
     <xsl:template match="/">
-        <gpx version="1.0" creator="sanitize-gpx">
+        <gpx version="1.0" creator="gpx-sanitize">
             <xsl:apply-templates/>
         </gpx>
     </xsl:template>
