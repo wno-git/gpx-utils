@@ -2,14 +2,14 @@
 <xsl:stylesheet
     version="1.0"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns="http://www.topografix.com/GPX/1/1"
-    xmlns:gpx="http://www.topografix.com/GPX/1/1"
+    xmlns="http://www.topografix.com/GPX/1/0"
+    xmlns:gpx="http://www.topografix.com/GPX/1/0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.topografix.com/GPX/1/1/gpx.xsd"
+    xsi:schemaLocation="http://www.topografix.com/GPX/1/0/gpx.xsd"
     exclude-result-prefixes="gpx">
     <xsl:output indent="yes"/>
     <xsl:template match="/">
-        <gpx version="1.1" creator="sanitize-gpx">
+        <gpx version="1.0" creator="sanitize-gpx">
             <xsl:apply-templates/>
         </gpx>
     </xsl:template>
